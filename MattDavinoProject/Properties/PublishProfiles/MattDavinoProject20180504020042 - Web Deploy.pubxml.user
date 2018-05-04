@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANSRUcTF76kiswiVBNwmmTAAAAAACAAAAAAAQZgAAAAEAACAAAAAALJRbHX1gXr+HAfN3oEUolf8dtevkuJ2xRLMdOwqdKQAAAAAOgAAAAAIAACAAAACDkbLn6nSyTwA4YwxNHe0IIJ+I0A5ouZOeg6QRT7Di5IAAAABfxMmLFiUX89T8qbbtOdC7E/1ORhu5U6H7mwmJOCjlJ18RWcj7kBUEqLx9GOaiHBLABhcseqkobBIOPIDoi9vQmarGgitLulCsuuAm0lqQmugLaQ/ngiZXkaPe0GiRHu8bWx+cwRL0Orm6rEaIVIc6MPM4daZNicskVIGldSk3hEAAAADmknP9onaVnPKrMih7hCRwfTPNw5U2nJVsHen4eS0miIN8l8lDGzzzuIcZTdcfNa4co81TVjG08gieFX7eboC/</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:davinomlab5dbserver.database.windows.net,1433;Initial Catalog=MattDavinoProject20180504020042_db;User Id=admunistrator@davinomlab5dbserver;Password=admin</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
