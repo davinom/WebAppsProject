@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="card mb-3 col-sm-3" width="250">
+    <img class="card-img-top" src="{{member.photoUrl}}" height="140" width="140" />
+    <div class="card-body">
+      <h1 class="card-title">{{member.name}}'s Profile</h1>
+      <p class="card-text">{{member.city}}, {{member.age}}</p>
+      <p class="card-text">Last Active: {{member.lastActive}}</p>
+    </div>
+  </div>
+  <div id="description" class="col-sm-9" >
+    <h2>More About {{member.name}}</h2>
+    <h3>Description: </h3> <br />
+    <p>{{member.introduction}}</p><br />
+    <h3>Looking For: </h3><br />
+    <p>{{member.lookingFor}}</p><br />
+    <h3>Interests: </h3> <br />
+    <p>{{member.interests}}</p><br />
+    <h3>Photos:</h3><br />
+     <li *ngFor="let photo of photos">
+       {{ photo.url }}
+     </li>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="card mb-3 col-sm-3" width="250">
+    <img class="card-img-top" src="{{member.photoUrl}}" height="140" width="140" />
+    <div class="card-body">
+      <h1 class="card-title">{{member.name}}'s Profile</h1>
+      <p class="card-text">{{member.city}}, {{member.age}}</p>
+      <p class="card-text">Last Active: {{member.lastActive}}</p>
+    </div>
+  </div>
+  <div id="description" class="col-sm-9">
+    <h2>More About {{member.name}}</h2>
+    <h3>Description: </h3> <br />
+    <textarea name="Description" rows="50" cols="100"></textarea>
+    <h3>Looking For: </h3><br />
+    <textarea name="Lookingfor" rows="50" cols="100"></textarea>
+    <h3>Interests: </h3> <br />
+    <textarea name="interest" rows="50" cols="100"></textarea>
+    <h3>City</h3>
+    <input type="text" value="{{member.city}}"/> 
+  </div>
+</div>
